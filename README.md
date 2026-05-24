@@ -6,6 +6,12 @@
 
 ### Структура:
 ```
+.github
+    workflows
+        ci.yml
+bin
+    tasks.exe
+    auuth.exe
 deploy
     monitoring
         prometheus.yml
@@ -31,6 +37,7 @@ services
                     verify.go
                 routes.go
             service
+                auth_test.go
                 auth.go
     tasks
         Dpkerfile
@@ -47,6 +54,7 @@ services
                     csrf.go
                     metrics.go
                 handlers
+                    tasks_test.go
                     tasks.go
                     middleware
                         auth.go
