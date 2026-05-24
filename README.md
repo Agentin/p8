@@ -112,10 +112,10 @@ go.sum
 **тест**
 **![здесь должен быть рисунок, честно](image/8_4.png)**
 
-### Публикация образа в registry – образ загружается в `ghcr.io/<owner>/<repo>/tasks`. Теги:
+### Публикация образа в registry – образ загружается в `github.com/<owner>/<repo>/bin`. Теги:
    - `latest` – для ветки по умолчанию (main/master).
    - `main-<short_sha>` – всегда при успешной сборке.
-   Пример: `ghcr.io/student/tech-ip-sem2/tasks:main-1a2b3c4`.
+   Пример: `ghcr.io/student/p8/bin/main`.
 
 #### Вывод
 
